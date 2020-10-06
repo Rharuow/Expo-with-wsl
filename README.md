@@ -45,4 +45,4 @@ export default App;
 ## Step 2 - Typescript
 
 1. Install typescript dependencies
-> 
+> yarn add --dev typescript @types/react @types/react-native @types/react-dom
