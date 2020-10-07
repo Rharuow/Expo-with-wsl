@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
 })
 
 const SignIn: React.FC = props => {
-  const { signed, signIn } = useContext(AuthContex)
+  const { signed, user, signIn } = useContext(AuthContex)
 
   function handlerSignIn() {
     signIn()
